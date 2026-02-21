@@ -999,9 +999,9 @@ def Listen_Commander():
 
     cve_info_parser = subparsers.add_parser(
         "cve_info",
-        help="Show-ME : CVE Details was Added in BurnWP Framework 1.0"
+        help="Show-ME : CVE Details was Added in Root - Team AutoExploit v1.0.0"
     )
-    cve_info_parser.description = "[*] Show CVE list with detailed exploit information included in the BurnWP Framework"
+    cve_info_parser.description = "[*] Show CVE list with detailed exploit information included in Root - Team AutoExploit"
 
     ui_config = subparsers.add_parser(
         "ui_config",

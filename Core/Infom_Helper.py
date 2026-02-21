@@ -12,7 +12,7 @@ console = Console()
 def Help_Tables():
     try:
         table = Table(
-            title="[bold underline magenta]BurnWP Framework - Command Example[/]",
+            title="[bold underline magenta]Root - Team AutoExploit - Command Example[/]",
             show_header=True,
             header_style="bold yellow",
             border_style="bright_blue",
@@ -52,28 +52,27 @@ def Help_Tables():
         )
         table.add_row(
             f"[bold white]python3 {sys.argv[0]} cve_info[/]",
-            "Display CVE details available in BurnWP Framework"
+            "Display CVE details available in Root - Team AutoExploit"
         )
         
         panel = Panel(table, title="[bold bright_magenta] Command Help [/]", border_style="bright_magenta")
         console.print(panel)
 
-    except:
+    except Exception:
         pass
-            #console.print(f"[bold red]Error displaying help table:[/] {e}")
 def About_US():
     try:
         ABOUT_text = (
-            "\n[bold cyan]BurnWP Framework : 1.0.1[/bold cyan]\n"
-            "[green]CODED by Forums :[/green] DRCrypter.ru\n"
+            "\n[bold cyan]Root - Team AutoExploit : 1.0.0[/bold cyan]\n"
+            "[green]CODED by :[/green] zeproot\n"
             "[yellow]CORE ENGINE VER :[/yellow] 1.0.1\n"
             "[magenta]DATE PUBLIC :[/magenta] 7-7-2025\n"
             "[blue]LAST UPDATE :[/blue] 7-7-2025\n"
         )
-        panel = Panel.fit(ABOUT_text, title="BurnWP Framework", border_style="bright_blue")
+        panel = Panel.fit(ABOUT_text, title="Root - Team AutoExploit", border_style="bright_blue")
         console.print(Align.center(panel))   # <-- This centers the panel
         print('\n')
-    except:
+    except Exception:
         pass
 
 
@@ -87,7 +86,7 @@ def CVE__DB():
 
         console = Console()
         table = Table(
-            title="BurnWP Framework 1.0 — CVE Exploiter Database",
+            title="Root - Team AutoExploit v1.0.0 — CVE Exploiter Database",
             header_style="",      
             title_style=""        
         )

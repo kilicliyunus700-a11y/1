@@ -64,13 +64,11 @@ cfg = Config()
 def load_config(path='Config/config.json'):
     try:
         qconfig.load(path, cfg)  
-        #print(f"Config loaded from {path}")
-    except:pass 
-        #print(f"Failed to load Config: {e}")
+    except Exception:
+        pass 
 
 def save_config():
     try:
         qconfig.save()  
-        #print("Config saved")
-    except:pass 
-        #print(f"Failed to save Config: {e}")
+    except Exception:
+        pass 

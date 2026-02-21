@@ -300,7 +300,7 @@ class HomePage(ScrollArea):
         self.Proxy_Group = SettingCardGroup(self.tr("Proxy Config"), self.scrollWidget)
          
         
-        self.Main_Panel = SettingCardGroup(self.tr('Statistics - BurnWP Framework'), self.scrollWidget)
+        self.Main_Panel = SettingCardGroup(self.tr('Statistics - Root - Team AutoExploit'), self.scrollWidget)
         self.Basic_Settings = SettingCardGroup(self.tr("Basic Configs"), self.scrollWidget)
         self.Technology_Setting = SettingCardGroup(self.tr("Technology Configs"), self.scrollWidget)
 
@@ -620,7 +620,7 @@ class Window(FluentWindow):
         # BASE_DIR = os.path.dirname(__file__)
         # icon_path = os.path.join(BASE_DIR, "Files_BurnWP", "wordpress.svg")
         self.setWindowIcon(QIcon(r'Files_BurnWP/wordpress.svg'))
-        self.setWindowTitle('  BurnWP Framework - Config')
+        self.setWindowTitle('  Root - Team AutoExploit - Config')
 
         desktop = QApplication.desktop().availableGeometry()
         w, h = desktop.width(), desktop.height()
