@@ -1,29 +1,19 @@
-# 🔥 BurnWP Framework v1.0.0 💥
-
-🌐 **Logo BurnWP-Framework 1.0.0**  
- ![Logo](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/logo.png)
- 
-## Join Community & Suggest a Feature
-[![Join on Telegram](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/220px-Telegram_logo.svg.png)](https://t.me/burnwpcommunity)
+# 🔥 Root - Team AutoExploit v1.0.0 💥
 
 ## 📌 Introduction
 
-We are proud to announce the release of **BurnWP Framework v1.0.0** — a powerful WordPress auto-exploitation tool built with a custom plugin for practical and effective penetration testing.
+We are proud to announce the release of **Root - Team AutoExploit v1.0.0** — a powerful WordPress auto-exploitation tool built with a custom plugin for practical and effective penetration testing.
 
-Unlike traditional vulnerability scanners that only detect potential issues, **BurnWP Framework** is designed to actively exploit known WordPress CVEs and gain shell access when possible.  
+Unlike traditional vulnerability scanners that only detect potential issues, **Root - Team AutoExploit** is designed to actively exploit known WordPress CVEs and gain shell access when possible.  
 This makes it a valuable tool for security professionals who need results, not just reports.  
 Version 1.0.0 focuses exclusively on WordPress vulnerabilities and is optimized for Windows users, offering a simple user interface for configuration and execution.  
 This is just the beginning—expect more CMS support and advanced modules in future versions.
 
 ---
 
-🌐 **BurnWP Diagram**  
- ![BurnWP Diagram](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/BurnWP_Diagram.png)
+## 🚀 Features – Root - Team AutoExploit v1.0.0
 
-
-## 🚀 Features – BurnWP Framework v1.0.0
-
-BurnWP Framework is designed for offensive security professionals who want more than just scanning—it provides real-world exploitation capabilities, a modular plugin system, and an intuitive user interface.
+Root - Team AutoExploit is designed for offensive security professionals who want more than just scanning—it provides real-world exploitation capabilities, a modular plugin system, and an intuitive user interface.
 
 ### ✅ 1. Mass Exploitation Using `Target_Lists.txt`
 
@@ -36,16 +26,6 @@ Run exploitation against multiple targets listed in `Target_Lists.txt` (one URL 
 > - Plugin Exploiter  
 
 When combined, these modules provide powerful exploitation capabilities across multiple attack vectors.
-
-## 📷 DEMO Screenshot :
-
-
-🌐 **command attack with lists.txt**  
- ![command attack with lists.txt](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/refs/heads/main/demo/attack_targets.txt.png)
-
-
-🌐 **Exploit & Success Accessed**  
- ![full screen](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/demo_shell_access.png)
 
 ---
 
@@ -63,17 +43,12 @@ Test one specific plugin exploit against a single target domain.
 
 > **Use Case:** 1-to-1 plugin testing — great for precision testing or local development.
 
-🌐 **Demo Command with Single Target**  
-
- ![selection plugins](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/plugin_with_per_target.png)
-
-
 ---
 
 ### 🛠️ 4. Developer Mode – Build Your Own Plugins
 
 Create and drop your own custom exploit plugins into the `Plugins_Exploiter/` directory.  
-Simply run BurnWP using `install_plugin`, and your plugin will be:
+Simply run the tool using `install_plugin`, and your plugin will be:
 
 - ✅ Loaded in real time  
 - ✅ Validated for structure and errors  
@@ -83,16 +58,12 @@ Simply run BurnWP using `install_plugin`, and your plugin will be:
 > - Supports WordPress CVEs and any other CVE-based web application exploits, including PHP, Laravel, etc.  
 > - Use the `Plugin_BurnWP()` function as the entry point, similar to a `main()` function.  
 > - Supports both GET and POST methods via prebuilt `Shell_Loader` forms.  
-> - A full tutorial will be provided in future releases.
-
-🌐 **Plugin Install & Listening in Real-Times**  
- ![UI Image](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/install_plugin.png)
 
 ---
 
 ### ⚙️ 5. User-Friendly Interface for Configuration
 
-Configure BurnWP via a simple UI or directly by editing `Config/config.json`.
+Configure the tool via a simple UI or directly by editing `Config/config.json`.
 
 > **INFO:**  
 > Enable or disable features with:  
@@ -102,15 +73,11 @@ Configure BurnWP via a simple UI or directly by editing `Config/config.json`.
 > ```
 > All modules are toggleable via the `ui_config` interface for quick adjustments.
 
-🌐 **UI Config**  
- ![UI Image](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/ui.png)
-
- ![Full Settings](https://raw.githubusercontent.com/drcrypterdotru/BurnWP-Framework/main/demo/ui_2.png)
 ---
 
 ### 📚 6. CVE Database Overview (Built-In)
 
-BurnWP includes a detailed CVE index that gives you full visibility into available exploits:
+Root - Team AutoExploit includes a detailed CVE index that gives you full visibility into available exploits:
 
 | **Field**       | **Description**                                      |
 |------------------|------------------------------------------------------|
@@ -175,8 +142,8 @@ BurnWP includes a detailed CVE index that gives you full visibility into availab
 
 2. ✅ Clone this repository:
 ```bash
-git clone https://github.com/drcrypterdotru/BurnWP-Framework.git
-cd BurnWP-Framework
+git clone https://github.com/kilicliyunus700-a11y/1.git
+cd 1
 ```
 
 <details>
@@ -222,19 +189,7 @@ python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
-
 </details>
-
-
-
-<div style="text-align: center;">
-
-
-## More Tools on Forums
-
-Explore our community and connect with us on visit our website for more Tools and Resources!
-
-[![Website](https://drcrypter.ru/data/assets/logo/logo1.png)](https://drcrypter.ru)
 
 ---
 
@@ -250,6 +205,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-> ⚠️ **Disclaimer**: This tool is for educational purposes only. 🏫 The creator and contributors are not responsible for any misuse or damages caused. Use responsibly, and only on systems you own or have permission for. ✅
+> ⚠️ **Disclaimer**: This tool is for educational purposes only. 🏫 The creator (`zeproot`) and contributors are not responsible for any misuse or damages caused. Use responsibly, and only on systems you own or have permission for. ✅
 
----
